@@ -7,4 +7,6 @@ if (place_free(x,y+1)){
  else{
 	 gravity = 0;
 	 friction = .25;
- }
+	 }
+
+camera_set_view_target(0,objCrab)

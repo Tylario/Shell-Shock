@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-gravity_direction = 270;
-
+direction = 270;
+speed = 5;
 
 
