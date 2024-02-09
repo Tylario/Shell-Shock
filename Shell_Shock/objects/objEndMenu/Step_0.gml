@@ -21,7 +21,7 @@ if accept_key
 	{
 		//start of the game
 		case 0:
-		game_restart(); break;
+		room_goto(roomTestLevel); break;
 		//quiting the game
 		case 1:
 		game_end();  break;						
