@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprFinish",
-    "path": "sprites/sprFinish/sprFinish.yy",
+    "name": "sprFinishTemp",
+    "path": "sprites/sprFinishTemp/sprFinishTemp.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 //dynamic width/height of menu
 var _new_w = 0;
 for (var i = 0; i < op_length; i++)

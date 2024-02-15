@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprGround",
-    "path": "sprites/sprGround/sprGround.yy",
+    "name": "sprGroundTemp",
+    "path": "sprites/sprGroundTemp/sprGroundTemp.yy",
   },
   "spriteMaskId": null,
   "visible": true,

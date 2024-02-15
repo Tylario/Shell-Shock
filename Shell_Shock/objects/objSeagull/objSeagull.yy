@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "sprEnemyTemp",
+    "path": "sprites/sprEnemyTemp/sprEnemyTemp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
