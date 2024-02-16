@@ -3,3 +3,4 @@ if(hspeed < -hsp){
 	 hspeed = -hsp;
 }
 
+x -= hsp;
