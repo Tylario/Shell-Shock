@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objDebugCheats",
+  "name": "objSeagullSpawner2",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Controls",
-    "path": "folders/Objects/Controls.yy",
+    "name": "EnemySpawners",
+    "path": "folders/Objects/EnemySpawners.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objFootSpawner",
+    "path": "objects/objFootSpawner/objFootSpawner.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprTriggerTemp",
+    "path": "sprites/sprTriggerTemp/sprTriggerTemp.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

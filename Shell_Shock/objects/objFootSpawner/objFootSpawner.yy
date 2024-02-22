@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objSpawner",
+  "name": "objFootSpawner",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "EnemySpawners",
+    "path": "folders/Objects/EnemySpawners.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprEnemyTemp",
-    "path": "sprites/sprEnemyTemp/sprEnemyTemp.yy",
+    "name": "sprTriggerTemp",
+    "path": "sprites/sprTriggerTemp/sprTriggerTemp.yy",
   },
   "spriteMaskId": null,
   "visible": false,

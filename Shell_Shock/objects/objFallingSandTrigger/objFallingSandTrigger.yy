@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objTrigger","path":"objects/objTrigger/objTrigger.yy",},"propertyId":{"name":"objectY","path":"objects/objTrigger/objTrigger.yy",},"value":"376",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "EnemySpawners",
+    "path": "folders/Objects/EnemySpawners.yy",
   },
   "parentObjectId": {
     "name": "objTrigger",
