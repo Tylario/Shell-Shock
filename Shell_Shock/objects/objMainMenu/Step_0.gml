@@ -5,7 +5,7 @@ var canChangeRoom = true;
 if buttonSelected == 1 {
     if keyboard_check_pressed(select) && canChangeRoom {
         canChangeRoom = false; // Set the flag to false to prevent spamming
-        room_goto(roomTestLevel); //GOTO STARTING ROOM
+        room_goto(startRoom); //GOTO STARTING ROOM
     }
 }
 

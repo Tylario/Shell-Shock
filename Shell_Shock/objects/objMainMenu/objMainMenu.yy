@@ -30,7 +30,9 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"textCenter","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"15","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"startRoom","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"roomTest2","varType":5,},
   ],
   "solid": false,
   "spriteId": null,
