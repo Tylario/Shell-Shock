@@ -4,7 +4,7 @@ if keyboard_check(vk_backspace) {
 }
 
 //test fullscreen
-window_set_fullscreen(false);
+window_set_fullscreen(true);
 
 //restart room
 if keyboard_check(ord("R")) {
