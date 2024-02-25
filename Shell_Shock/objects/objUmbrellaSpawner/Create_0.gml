@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+spawned = false;
 
-if(objCrab.y > y){
-	instance_destroy(objCrab,true)
-}
+
 
 
