@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprFoot",
-    "path": "sprites/sprFoot/sprFoot.yy",
+    "name": "sprEnemyTemp",
+    "path": "sprites/sprEnemyTemp/sprEnemyTemp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
