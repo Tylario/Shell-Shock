@@ -1,0 +1,1 @@
+hasCollidedWithCrab = true
