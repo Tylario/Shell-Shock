@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprEnemyTemp",
-    "path": "sprites/sprEnemyTemp/sprEnemyTemp.yy",
+    "name": "sprSeagull",
+    "path": "sprites/sprSeagull/sprSeagull.yy",
   },
   "spriteMaskId": null,
   "visible": true,
