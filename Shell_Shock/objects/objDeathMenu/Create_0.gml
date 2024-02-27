@@ -1,4 +1,4 @@
-deathMessage = "You Died! :Cue sad crab:";
+deathMessage = "You Died! \n" + objDebugCheats.DeathPun;
 buttonSelected = 1;
 totalButtons = 3;
 select = vk_enter;

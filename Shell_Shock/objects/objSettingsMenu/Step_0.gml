@@ -10,7 +10,20 @@ if (buttonSelected == 1) {
     }
 }
 
-if (buttonSelected == 2) {
+if (buttonSelected == 2){
+	if (keyboard_check_pressed(vk_enter) && toggle_cooldown <= 0) {
+        // FullScreen
+        if (objFullScreen.winHeight == 1080 && objFullScreen.winWidth == 1920){
+			objFullScreen.winHeight = 768
+			objFullScreen.winWidth = 1366
+		} else {
+			objFullScreen.winWidth = 1920
+			objFullScreen.winHeight = 1080
+		}
+    }
+}
+
+if (buttonSelected == 3) {
     if (keyboard_check_pressed(vk_enter) && toggle_cooldown <= 0) {
         // Back
         room_goto(roomStartMenu);

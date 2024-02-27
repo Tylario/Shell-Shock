@@ -44,6 +44,7 @@
     {"name":"CrebWalk","order":1,"path":"sprites/CrebWalk/CrebWalk.yy",},
     {"name":"sprButton","order":8,"path":"sprites/sprButton/sprButton.yy",},
     {"name":"sprSkyBack2","order":5,"path":"sprites/sprSkyBack2/sprSkyBack2.yy",},
+    {"name":"roomDeathMenu","order":4,"path":"rooms/roomDeathMenu/roomDeathMenu.yy",},
     {"name":"sprFallingPlatformTemp","order":7,"path":"sprites/sprFallingPlatformTemp/sprFallingPlatformTemp.yy",},
     {"name":"objGround","order":1,"path":"objects/objGround/objGround.yy",},
     {"name":"roomSettingsMenu","order":2,"path":"rooms/roomSettingsMenu/roomSettingsMenu.yy",},
@@ -62,7 +63,6 @@
     {"name":"Object18","order":25,"path":"objects/Object18/Object18.yy",},
     {"name":"fontPocketPixel","order":1,"path":"fonts/fontPocketPixel/fontPocketPixel.yy",},
     {"name":"snd_Seagull_caw","order":6,"path":"sounds/snd_Seagull_caw/snd_Seagull_caw.yy",},
-    {"name":"roomDeathMenu","order":1,"path":"rooms/roomDeathMenu/roomDeathMenu.yy",},
     {"name":"sprFallingSandTemp","order":5,"path":"sprites/sprFallingSandTemp/sprFallingSandTemp.yy",},
     {"name":"sprMenuTemp","order":2,"path":"sprites/sprMenuTemp/sprMenuTemp.yy",},
     {"name":"Umbrella","order":11,"path":"sprites/Umbrella/Umbrella.yy",},
@@ -71,6 +71,7 @@
     {"name":"roomVictory","order":3,"path":"rooms/roomVictory/roomVictory.yy",},
     {"name":"objDeathCounter","order":1,"path":"objects/objDeathCounter/objDeathCounter.yy",},
     {"name":"sprSun","order":6,"path":"sprites/sprSun/sprSun.yy",},
+    {"name":"objFullScreen","order":3,"path":"objects/objFullScreen/objFullScreen.yy",},
     {"name":"objUmbrellaDynamic","order":4,"path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},
   ],
 }

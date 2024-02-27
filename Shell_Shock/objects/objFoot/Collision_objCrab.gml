@@ -3,4 +3,16 @@
 
 instance_destroy(other)
 
-
+punDecider = irandom(3)
+switch(punDecider)
+{
+	case 0: 
+		objDebugCheats.DeathPun = "Get Stepped on!"
+		break;
+	case 1:
+		objDebugCheats.DeathPun = "Should have worn shoes!"
+		break;
+	case 2:
+		objDebugCheats.DeathPun = "New toe jam?"
+		break;
+}
