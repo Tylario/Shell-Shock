@@ -13,12 +13,10 @@ if (buttonSelected == 1) {
 if (buttonSelected == 2){
 	if (keyboard_check_pressed(vk_enter) && toggle_cooldown <= 0) {
         // FullScreen
-        if (objFullScreen.winHeight == 1080 && objFullScreen.winWidth == 1920){
-			objFullScreen.winHeight = 768
-			objFullScreen.winWidth = 1366
+        if (window_get_fullscreen()){
+			objDebugCheats.fullScreen = false
 		} else {
-			objFullScreen.winWidth = 1920
-			objFullScreen.winHeight = 1080
+			objDebugCheats.fullScreen = true
 		}
     }
 }

@@ -71,7 +71,6 @@
     {"name":"roomVictory","order":3,"path":"rooms/roomVictory/roomVictory.yy",},
     {"name":"objDeathCounter","order":1,"path":"objects/objDeathCounter/objDeathCounter.yy",},
     {"name":"sprSun","order":6,"path":"sprites/sprSun/sprSun.yy",},
-    {"name":"objFullScreen","order":3,"path":"objects/objFullScreen/objFullScreen.yy",},
     {"name":"objUmbrellaDynamic","order":4,"path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},
   ],
 }

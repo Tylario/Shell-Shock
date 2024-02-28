@@ -102,7 +102,6 @@
     {"id":{"name":"roomVictory","path":"rooms/roomVictory/roomVictory.yy",},},
     {"id":{"name":"objDeathCounter","path":"objects/objDeathCounter/objDeathCounter.yy",},},
     {"id":{"name":"sprSun","path":"sprites/sprSun/sprSun.yy",},},
-    {"id":{"name":"objFullScreen","path":"objects/objFullScreen/objFullScreen.yy",},},
     {"id":{"name":"objUmbrellaDynamic","path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},},
     {"id":{"name":"roomTestLevel","path":"rooms/roomTestLevel/roomTestLevel.yy",},},
   ],
