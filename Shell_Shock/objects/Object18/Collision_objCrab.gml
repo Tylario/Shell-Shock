@@ -13,6 +13,6 @@ switch(punDecider)
 		objDebugCheats.DeathPun = "Go back in hiding!"
 		break;
 	case 3:
-		objDebugCheats.DeathPun = "Death by Galmour! (...and lots of Sand.)";
+		objDebugCheats.DeathPun = "Death by Glamour! (...and lots of Sand.)";
 		break;
 }
