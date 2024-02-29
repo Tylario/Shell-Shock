@@ -1,6 +1,8 @@
 moving = false
+if(keyboard_check(vk_shift)){
+	
 
-//movement
+	//movement
 	if !dancing && keyboard_check(vk_left) && (!instance_place(x - hsp, y, objGround) && !instance_place(x - hsp, y, objUmbrellaDynamic)) {
 		moving = true
 		if(image_xscale > 0){
@@ -27,7 +29,7 @@ moving = false
 		image_index = Creb
 	}
 	
-	if keyboard_check(vk_down) && instance_place(x, y + 1, objGround){
+	if (keyboard_check(vk_down) && instance_place(x, y + 1, objGround)){
 		sprite_index = CrebDance
 		dancing = true
 	} else {
@@ -41,30 +43,32 @@ moving = false
 		}
 	}
 
-//gravity
-	if instance_place(x, y + 1, objGround) {
-		gravity = 0;
-	} else if !dancing{
-		gravity = 0.25;
-		moving = false;
+	//gravity
+		if instance_place(x, y + 1, objGround) {
+			gravity = 0;
+		} else if !dancing {
+			gravity = 0.25;
+			moving = false;
+		}
+}
+	
+	//sprite animation while moving
+	if (moving)
+	{
+		image_index = floor(frame)
+	
+		frame = frame + 0.2
+	
+		if frame > 4.8
+			frame = 1
+	}
+	else
+	{
+		image_index = 1
 	}
 	
-//sprite animation while moving
-if (moving)
-{
-	image_index = floor(frame)
 	
-	frame = frame + 0.2
-	
-	if frame > 4.8
-		frame = 1
-}
-else
-{
-	image_index = 1
-}
-
-if (dancing)
+	if (dancing)
 	{
 		image_index = floor(frame)
 	
@@ -77,4 +81,5 @@ if (dancing)
 	{
 		sprite_index = CrebWalk
 	}
+
 	

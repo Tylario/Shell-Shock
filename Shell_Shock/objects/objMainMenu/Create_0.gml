@@ -5,6 +5,3 @@ select = vk_enter;
 startButton = sprButton;
 settingsButton = sprButton;
 quitButton = sprButton;
-
-
-

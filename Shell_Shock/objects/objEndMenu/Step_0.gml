@@ -1,31 +1,28 @@
-up_key = keyboard_check_pressed(vk_up)
-down_key = keyboard_check_pressed(vk_down)
-accept_key = keyboard_check_pressed(vk_space)
-
-//store number of options in current menu
-op_length = 2
-
-//move through the menu
-pos += down_key - up_key;
-if pos >= op_length {pos = 0}
-if pos < 0 {pos = op_length -1}
-
-
-//using the options
-if accept_key
+if (keyboard_check(select))
 {
-	switch(pos)
-	{
-		//start of the game
-		case 0:
-		room_goto(roomTestLevel); break;
-		//quiting the game
-		case 1:
-		game_end();  break;						
-	}
-	//Correct option length
-	op_length = 2
+     show_debug_message(buttonSelected);
 }
 
+//start button
+if buttonSelected == 1 {
+	if keyboard_check(select) {
+		room_goto(Level1); //GOTO STARTING ROOM
+		show_debug_message("retry");
+	}
+}
 
+//settings button
+if buttonSelected == 2 {
+	if keyboard_check(select) {
+		room_goto(roomStartMenu);
+		show_debug_message("start menu");
+		
+	}
+}
 
+//quit button
+if buttonSelected == 3 {
+	if keyboard_check(select) {
+		game_end();
+	}
+}

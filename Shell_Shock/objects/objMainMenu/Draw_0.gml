@@ -3,6 +3,13 @@ draw_set_font(fontPocketPixel);
 draw_set_color(c_black);
 draw_set_halign(fa_center);
 
+draw_text(300, 300, "(Hold Shift to control me)")
+draw_text(300, 350, "Up Arrow is to Jump")
+draw_text(300, 400, "Left Arrow is to move left")
+draw_text(300, 450, "Right Arrow is to move right")
+draw_text(300, 500, "Down Arrow is to Dance!!")
+
+
 //draw menu buttons
 draw_sprite(startButton, 0, room_width/2, 400);
 draw_text(room_width/2, 400 - textCenter, "Start");

@@ -1,6 +1,6 @@
 //skip to sandcastle level
 if keyboard_check(vk_backspace) {
-	room_goto(roomTest2);
+	room_goto(roomVictory);
 }
 
 //test fullscreen

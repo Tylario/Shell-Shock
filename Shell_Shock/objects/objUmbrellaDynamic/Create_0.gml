@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-vspeed = 5
 
+if(Moving){
+	image_yscale = 1.5
+	yMove = 250
+}
 
