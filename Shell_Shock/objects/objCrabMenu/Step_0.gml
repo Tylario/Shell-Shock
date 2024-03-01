@@ -10,7 +10,7 @@ if(keyboard_check(vk_shift)){
 		}
 		x -= hsp;
 	}else{
-		image_index = Creb
+		image_index = sprCreb
 	}
 
 	if !dancing && keyboard_check(vk_right) && (!instance_place(x + hsp, y, objGround) && !instance_place(x + hsp, y, objUmbrellaDynamic)) {
@@ -20,17 +20,17 @@ if(keyboard_check(vk_shift)){
 		else
 			moving = true
 		
-		sprite_index = CrebWalk
+		sprite_index = sprCrebWalk
 		if(image_xscale < 0){
 			image_xscale = -image_xscale
 		}
 		x += hsp;
 	} else{
-		image_index = Creb
+		image_index = sprCreb
 	}
 	
 	if (keyboard_check(vk_down) && instance_place(x, y + 1, objGround)){
-		sprite_index = CrebDance
+		sprite_index = sprCrebDance
 		dancing = true
 	} else {
 		dancing = false
@@ -79,7 +79,7 @@ if(keyboard_check(vk_shift)){
 	}
 	else
 	{
-		sprite_index = CrebWalk
+		sprite_index = sprCrebWalk
 	}
 
 	

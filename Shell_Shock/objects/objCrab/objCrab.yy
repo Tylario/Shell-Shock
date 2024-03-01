@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "CrebWalk",
-    "path": "sprites/CrebWalk/CrebWalk.yy",
+    "name": "sprCrebWalk",
+    "path": "sprites/sprCrebWalk/sprCrebWalk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

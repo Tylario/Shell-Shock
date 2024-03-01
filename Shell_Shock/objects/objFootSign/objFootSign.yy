@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "feetSign",
-    "path": "sprites/feetSign/feetSign.yy",
+    "name": "sprFeetSign",
+    "path": "sprites/sprFeetSign/sprFeetSign.yy",
   },
   "spriteMaskId": null,
   "visible": true,

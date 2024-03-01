@@ -7,3 +7,5 @@ select = vk_enter;
 toggleMuteButton = sprButton;
 toggleFullScreen = sprButton;
 backButton = sprButton;
+
+moveTest = false;

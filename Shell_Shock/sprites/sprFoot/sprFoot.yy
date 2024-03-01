@@ -48,8 +48,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "enemy sprites",
+    "path": "folders/Sprites/enemy sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

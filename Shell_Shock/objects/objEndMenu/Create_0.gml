@@ -1,4 +1,4 @@
-victoryMessage = "You Won! Congratulations"
+victoryMessage = ""
 buttonSelected = 1;
 totalButtons = 3;
 select = vk_enter;

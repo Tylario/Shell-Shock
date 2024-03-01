@@ -3,12 +3,12 @@ draw_set_font(fontPocketPixel);
 draw_set_color(c_black);
 draw_set_halign(fa_center);
 
-draw_text(300, 300, "(Hold Shift to control me)")
-draw_text(300, 350, "Up Arrow is to Jump")
-draw_text(300, 400, "Left Arrow is to move left")
-draw_text(300, 450, "Right Arrow is to move right")
-draw_text(300, 500, "Down Arrow is to Dance!!")
-
+//controls
+//draw_text(260, 380, "(Hold Shift to control me)")
+//draw_text(260, 430, "Up Arrow is to Jump")
+//draw_text(260, 480, "Left Arrow is to move left")
+//draw_text(260, 530, "Right Arrow is to move right")
+//draw_text(260, 580, "Down Arrow is to Dance!!")
 
 //draw menu buttons
 draw_sprite(startButton, 0, room_width/2, 400);
@@ -40,3 +40,9 @@ if buttonSelected == 3 {
 } else {
 	quitButton = sprButton;
 }
+
+//credits
+draw_set_color(c_maroon);
+draw_text(room_width/2, 30, "Team Crabby Presents...");
+draw_text(room_width/2, 680, "Created by Lily Elbel, Tyler Hudson, Tyler Rebman, and Mathew Shimko");
+

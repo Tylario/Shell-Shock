@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "sprPitfallOutline",
+    "path": "sprites/sprPitfallOutline/sprPitfallOutline.yy",
   },
   "spriteMaskId": null,
   "visible": true,

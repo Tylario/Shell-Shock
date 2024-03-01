@@ -5,7 +5,7 @@
   "bbox_bottom": 89,
   "bbox_left": 27,
   "bbox_right": 61,
-  "bbox_top": 2,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "background sprites",
+    "path": "folders/Sprites/background sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
