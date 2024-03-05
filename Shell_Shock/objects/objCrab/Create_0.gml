@@ -5,5 +5,6 @@ image_index = 0
 frame = 0;
 moving = false;
 dancing = false
+isInSandpit = false;
 
 randomize();

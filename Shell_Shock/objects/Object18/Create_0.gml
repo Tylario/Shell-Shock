@@ -10,3 +10,4 @@ otherCounter = 0;
 
 frameCounter = framesPerSandFrame;
 punDecider = 0
+hasPlayedPitfallSound = false;

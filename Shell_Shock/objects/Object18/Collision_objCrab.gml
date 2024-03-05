@@ -1,5 +1,10 @@
 touchingCrab = true;
 
+with (objCrab) 
+{
+    isInSandpit = true;
+}
+
 punDecider = irandom(4)
 switch(punDecider)
 {
@@ -13,6 +18,6 @@ switch(punDecider)
 		objDebugCheats.DeathPun = "Go back in hiding!"
 		break;
 	case 3:
-		objDebugCheats.DeathPun = "Death by Glamour! (...and lots of Sand.)";
+		objDebugCheats.DeathPun = "Sand trap!";
 		break;
 }

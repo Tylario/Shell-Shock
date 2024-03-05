@@ -41,8 +41,25 @@ if buttonSelected == 3 {
 	quitButton = sprButton;
 }
 
-//credits
+// Credits title
 draw_set_color(c_maroon);
 draw_text(room_width/2, 30, "Team Crabby Presents...");
-draw_text(room_width/2, 680, "Created by Lily Elbel, Tyler Hudson, Tyler Rebman, and Mathew Shimko");
 
+// Initialize a string to hold the combined names
+combinedNames = "Created by ";
+
+// Loop through the shuffled names array to add them to the string
+for (i = 0; i < array_length(names); i++) {
+    combinedNames += names[i];
+    
+    // If this is the second-to-last name, add ", and "
+    if (i == array_length(names) - 2) {
+        combinedNames += ", and ";
+    }
+    // Otherwise, if it's not the last name, add ", "
+    else if (i < array_length(names) - 1) {
+        combinedNames += ", ";
+    }
+}
+
+draw_text(room_width/2, 680, combinedNames);

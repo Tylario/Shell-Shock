@@ -1,5 +1,4 @@
 moving = false
-if(keyboard_check(vk_shift)){
 	
 
 	//movement
@@ -50,7 +49,7 @@ if(keyboard_check(vk_shift)){
 			gravity = 0.25;
 			moving = false;
 		}
-}
+
 	
 	//sprite animation while moving
 	if (moving)

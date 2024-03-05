@@ -6,7 +6,7 @@ if(Moving){
 	yMove -= 5
 	if(yMove == 0){
 		Moving = false
-		alarm[0] = 120
-		alarm[1] = 60
+		alarm[0] = 180
+		alarm[1] = 90
 	}
 }	

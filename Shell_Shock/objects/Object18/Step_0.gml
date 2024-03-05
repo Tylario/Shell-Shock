@@ -1,3 +1,9 @@
+if (!hasPlayedPitfallSound and touchingCrab)
+{
+    audio_play_sound(snd_pitfall_cropped, 1, false);
+    hasPlayedPitfallSound = true; // Ensure the sound is only played once
+}
+
 if (touchingCrab) {
     frameCounter -= 1; 
     

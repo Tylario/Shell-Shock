@@ -5,14 +5,14 @@
 if(room == Level1)
 {
 	//Bottom Sky Layer
-	layer_x("Sky1", lerp(0, camera_get_view_x(view_camera[0]), 0.1));
+	layer_x("Sky1", lerp(0, camera_get_view_x(view_camera[0]), 0.2));
 
 	
 	//Top Sky Layer
-	layer_x("Sky2", lerp(0, camera_get_view_x(view_camera[0]), 0.3));
+	layer_x("Sky2", lerp(0, camera_get_view_x(view_camera[0]), -1));
 	
 	//backsand layer
-	layer_x("backSand",lerp(0, camera_get_view_x(view_camera[0]),-0.15));
+	layer_x("backSand",lerp(0, camera_get_view_x(view_camera[0]),0.1));
 	
 	
 	//This checks to see if player is moving, so clouds move more "realistically" with camera.

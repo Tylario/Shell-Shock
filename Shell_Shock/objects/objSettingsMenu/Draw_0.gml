@@ -4,12 +4,12 @@ draw_set_color(c_black);
 draw_set_halign(fa_center);
 
 //controls
-draw_text(room_width/2, 70, "Controls:")
-draw_text(room_width/2, 120, "(Hold Shift to control me)")
-draw_text(room_width/2, 170, "Up Arrow is to Jump")
-draw_text(room_width/2, 220, "Left Arrow is to move left")
-draw_text(room_width/2, 270, "Right Arrow is to move right")
-draw_text(room_width/2, 320, "Down Arrow is to Dance!!")
+draw_text(room_width/2, 70, "Controls:");
+draw_text(room_width/2, 120, "Up Arrow is to Jump");
+draw_text(room_width/2, 170, "Left Arrow is to move left");
+draw_text(room_width/2, 220, "Right Arrow is to move right");
+draw_text(room_width/2, 270, "Down Arrow is to Dance!!");
+
 
 //draw menu buttons
 draw_sprite(toggleMuteButton, 0, room_width/2, 450);
