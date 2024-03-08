@@ -3,3 +3,5 @@ if(Moving){
 	yMove = 270
 	alarm[3] = 27
 }
+
+trigWait = 1;

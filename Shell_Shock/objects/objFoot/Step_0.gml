@@ -1,6 +1,7 @@
 if (hitGround)
 {
 timeUntilMoveUp = timeUntilMoveUp - 1;
+alarm[0] = 200;
 }
 
 if (timeUntilMoveUp == 0)

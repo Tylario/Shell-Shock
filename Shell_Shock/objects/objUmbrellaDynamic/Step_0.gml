@@ -4,9 +4,11 @@
 if(Moving){
 	y = y + 5
 	yMove -= 5
+	
 	if(yMove == 0){
 		Moving = false
-		alarm[0] = 180
-		alarm[1] = 90
+		alarm[0] = trigWait * 180
+		alarm[1] =  trigWait* 90
 	}
+	
 }	

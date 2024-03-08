@@ -7,6 +7,8 @@ settingsButton = sprButton;
 quitButton = sprButton;
 
 
+
+
 names = ["Lily Elbel", "Tyler Hudson", "Tyler Rebman", "Mathew Shimko"];
 
 //randomly shuffle named

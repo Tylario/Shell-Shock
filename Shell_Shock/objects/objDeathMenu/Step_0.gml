@@ -6,7 +6,7 @@ if (keyboard_check(select))
 //start button
 if buttonSelected == 1 {
 	if keyboard_check(select) {
-		room_goto(Level1); //GOTO STARTING ROOM
+		room_goto(Level1Extended); //GOTO STARTING ROOM
 		show_debug_message("retry");
 	}
 }

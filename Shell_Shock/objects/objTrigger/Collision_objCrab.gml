@@ -1,9 +1,15 @@
 //crab collides with trigger
-instance_create_layer(objectX, objectY, "Instances", spawnObject);
+objSpawn = instance_create_layer(objectX, objectY, "Instances", spawnObject);
+if(objSpawn.object_index == objUmbrellaDynamic)
+{
+	objSpawn.trigWait = wait;
+}
 
 if (isSeagull)
 {
 	randomSoundIndex = irandom(2);
+	//Sets the path for the seagull object.
+	objSpawn.setPath = pathSet;
 
 
 	switch(randomSoundIndex) 
@@ -19,5 +25,6 @@ if (isSeagull)
 			break;
 	}
 }
+
 
 instance_destroy();
