@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(other)
 
 punDecider = irandom(4)
 switch(punDecider)
@@ -19,3 +18,6 @@ switch(punDecider)
 		objDebugCheats.DeathPun = "Always One Step... uhhh... above";
 		break;
 }
+
+
+instance_destroy(other)

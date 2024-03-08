@@ -1,6 +1,4 @@
 
-instance_destroy(other)
-
 punDecider = irandom(4)
 switch(punDecider)
 {
@@ -18,3 +16,5 @@ switch(punDecider)
 		objDebugCheats.DeathPun = "What did you think would happen, holding forward like that?";
 		break;
 }
+
+instance_destroy(other)

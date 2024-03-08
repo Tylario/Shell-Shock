@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objPlat",
+  "%Name":"objReally",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objPlat",
+  "name":"objReally",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"objGround",
-    "path":"objects/objGround/objGround.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,11 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprPopsPlat",
-    "path":"sprites/sprPopsPlat/sprPopsPlat.yy",
+    "name":"Sprite35",
+    "path":"sprites/Sprite35/Sprite35.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

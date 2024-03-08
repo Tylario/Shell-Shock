@@ -8,8 +8,8 @@
   "name":"objTrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemyObjects",
-    "path":"folders/Objects/EnemyObjects.yy",
+    "name":"EnemySpawners",
+    "path":"folders/Objects/EnemySpawners.yy",
   },
   "parentObjectId":null,
   "persistent":false,

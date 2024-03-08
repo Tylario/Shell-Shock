@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Menus",
-    "path":"folders/Objects/EnemySpawners/Menus.yy",
+    "path":"folders/Objects/EnemyObjects/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

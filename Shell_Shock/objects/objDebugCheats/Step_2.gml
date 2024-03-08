@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(room == Level1)
+if(room == Level1 || room == Level1Extended)
 {
 	//Bottom Sky Layer
 	layer_x("Sky1", lerp(0, camera_get_view_x(view_camera[0]), 0.2));
