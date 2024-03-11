@@ -1,9 +1,12 @@
 moving = false
 
 // Movement left
-if !dancing && keyboard_check(vk_left) && (!instance_place(x - hsp, y, objGround) && !instance_place(x - hsp, y, objUmbrellaDynamic)) {
-    moving = true;
-    if(image_xscale > 0){
+if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instance_place(x - hsp, y, objGround) && !instance_place(x - hsp, y, objUmbrellaDynamic)) {
+    moving = !moving;
+    
+	sprite_index = sprCrebWalkNeo;
+	
+	if(image_xscale > 0){
         image_xscale = -image_xscale;
     }
     // Adjust left movement speed if in sandpit
@@ -13,14 +16,14 @@ if !dancing && keyboard_check(vk_left) && (!instance_place(x - hsp, y, objGround
         x -= hsp;
     }
 } else {
-	if(!keyboard_check(vk_right))
+	if(!(keyboard_check(vk_right) || keyboard_check(ord("D"))))
 	{
-		image_index = sprCrebIdle;
+		sprite_index = sprCrebIdle;
 	}
 }
 
 // Movement right
-if !dancing && keyboard_check(vk_right) && (!instance_place(x + hsp, y, objGround) && !instance_place(x + hsp, y, objUmbrellaDynamic)) {
+if !dancing && (keyboard_check(vk_right) || keyboard_check(ord("D"))) && (!instance_place(x + hsp, y, objGround) && !instance_place(x + hsp, y, objUmbrellaDynamic)) {
     moving = !moving; // Simplifies the toggle logic for moving
 	
 	sprite_index = sprCrebWalkNeo;
@@ -35,14 +38,14 @@ if !dancing && keyboard_check(vk_right) && (!instance_place(x + hsp, y, objGroun
         x += hsp;
     }
 } else {
-	if(!keyboard_check(vk_left))
+	if(!( keyboard_check(vk_left) || keyboard_check(ord("A"))))
 	{
-		image_index = sprCrebIdle;
+		sprite_index = sprCrebIdle;
 	}
 }
 
 // Dancing
-if keyboard_check(vk_down) && instance_place(x, y + 1, objGround){
+if (keyboard_check(vk_down) || keyboard_check(ord("S"))) && instance_place(x, y + 1, objGround){
     sprite_index = sprCrebDance;
     dancing = true;
 } else {
@@ -50,7 +53,7 @@ if keyboard_check(vk_down) && instance_place(x, y + 1, objGround){
 }
 
 // Jumping - Disable if isInSandpit is true
-if !dancing && keyboard_check(vk_up) && !isInSandpit {
+if !dancing && (keyboard_check(vk_up) || keyboard_check(ord("W"))) && !isInSandpit {
     if instance_place(x, y + 1, objGround){
         vspeed = -vsp;
     }
@@ -81,6 +84,4 @@ if (dancing) {
     if frame > 4.8 {
         frame = 1;
     }
-} else {
-    sprite_index = sprCrebWalkNeo;
 }

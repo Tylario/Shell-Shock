@@ -1,5 +1,5 @@
 
-punDecider = irandom(4)
+punDecider = irandom_range(0,4)
 switch(punDecider)
 {
 	case 0: 

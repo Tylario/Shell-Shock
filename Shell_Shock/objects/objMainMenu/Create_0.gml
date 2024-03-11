@@ -1,6 +1,7 @@
 buttonSelected = 1;
 totalButtons = 3;
 select = vk_enter;
+select2 = vk_space;
 
 startButton = sprButton;
 settingsButton = sprButton;
