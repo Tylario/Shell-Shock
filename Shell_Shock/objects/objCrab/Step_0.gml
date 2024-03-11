@@ -5,6 +5,7 @@ if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instan
     moving = !moving;
     
 	sprite_index = sprCrebWalkNeo;
+	shellUsed = shellWalk;
 	
 	if(image_xscale > 0){
         image_xscale = -image_xscale;
@@ -19,6 +20,7 @@ if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instan
 	if(!(keyboard_check(vk_right) || keyboard_check(ord("D"))))
 	{
 		sprite_index = sprCrebIdle;
+		shellUsed = shellSprite;
 	}
 }
 
@@ -26,6 +28,7 @@ if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instan
 if !dancing && (keyboard_check(vk_right) || keyboard_check(ord("D"))) && (!instance_place(x + hsp, y, objGround) && !instance_place(x + hsp, y, objUmbrellaDynamic)) {
     moving = !moving; // Simplifies the toggle logic for moving
 	
+	shellUsed = shellWalk;
 	sprite_index = sprCrebWalkNeo;
 	
     if(image_xscale < 0){
@@ -41,6 +44,7 @@ if !dancing && (keyboard_check(vk_right) || keyboard_check(ord("D"))) && (!insta
 	if(!( keyboard_check(vk_left) || keyboard_check(ord("A"))))
 	{
 		sprite_index = sprCrebIdle;
+		shellUsed = shellSprite;
 	}
 }
 

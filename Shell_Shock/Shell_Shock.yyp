@@ -103,6 +103,7 @@
     {"id":{"name":"snd_seagullCaw1","path":"sounds/snd_seagullCaw1/snd_seagullCaw1.yy",},},
     {"id":{"name":"snd_seagullCaw2","path":"sounds/snd_seagullCaw2/snd_seagullCaw2.yy",},},
     {"id":{"name":"snd_seagullCaw3","path":"sounds/snd_seagullCaw3/snd_seagullCaw3.yy",},},
+    {"id":{"name":"snd_CrabCakes","path":"sounds/snd_CrabCakes/snd_CrabCakes.yy",},},
     {"id":{"name":"GigaChadCrab","path":"sprites/GigaChadCrab/GigaChadCrab.yy",},},
     {"id":{"name":"sCastleBack","path":"sprites/sCastleBack/sCastleBack.yy",},},
     {"id":{"name":"spr_sandCastle","path":"sprites/spr_sandCastle/spr_sandCastle.yy",},},

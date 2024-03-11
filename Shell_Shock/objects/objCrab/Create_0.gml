@@ -9,6 +9,7 @@ isInSandpit = false;
 
 shell = irandom_range(0,7);
 shellSprite = sprShell0;
+shellUsed = sprShell0;
 shellWalk = sprShell0Walk;
 //Finnishing this later ;D ~Mathew
 switch(shell)

@@ -73,6 +73,7 @@
     {"name":"snd_seagullCaw1","order":10,"path":"sounds/snd_seagullCaw1/snd_seagullCaw1.yy",},
     {"name":"snd_seagullCaw2","order":9,"path":"sounds/snd_seagullCaw2/snd_seagullCaw2.yy",},
     {"name":"snd_seagullCaw3","order":11,"path":"sounds/snd_seagullCaw3/snd_seagullCaw3.yy",},
+    {"name":"snd_CrabCakes","order":19,"path":"sounds/snd_CrabCakes/snd_CrabCakes.yy",},
     {"name":"GigaChadCrab","order":4,"path":"sprites/GigaChadCrab/GigaChadCrab.yy",},
     {"name":"sCastleBack","order":15,"path":"sprites/sCastleBack/sCastleBack.yy",},
     {"name":"spr_sandCastle","order":13,"path":"sprites/spr_sandCastle/spr_sandCastle.yy",},
