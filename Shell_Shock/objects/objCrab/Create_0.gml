@@ -7,4 +7,12 @@ moving = false;
 dancing = false
 isInSandpit = false;
 
+shell = irandom_range(0,7);
+shellSprite = sprShell0;
+//Finnishing this later ;D ~Mathew
+switch(shell)
+{
+	default:
+		break;
+}
 randomize();

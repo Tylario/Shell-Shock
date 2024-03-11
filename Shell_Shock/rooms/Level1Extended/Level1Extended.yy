@@ -86,6 +86,7 @@
     {"name":"inst_E2DC19A","path":"rooms/Level1Extended/Level1Extended.yy",},
     {"name":"inst_7AD72F0B","path":"rooms/Level1Extended/Level1Extended.yy",},
     {"name":"inst_183F25FA","path":"rooms/Level1Extended/Level1Extended.yy",},
+    {"name":"inst_7264F6A4","path":"rooms/Level1Extended/Level1Extended.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -258,6 +259,9 @@
         {"$GMRInstance":"","%Name":"inst_183F25FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_183F25FA","objectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"propertyId":{"name":"vsp","path":"objects/objCrab/objCrab.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":496.0,},
+        {"$GMRInstance":"","%Name":"inst_7264F6A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7264F6A4","objectId":{"name":"objUmbrellaDynamic","path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},"properties":[
+            {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"objUmbrellaDynamic","path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},"propertyId":{"name":"Moving","path":"objects/objUmbrellaDynamic/objUmbrellaDynamic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":520.0,},
       ],"layers":[],"name":"CrebsHome","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_1C83CCA7_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1C83CCA7_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprPitfallSign","path":"sprites/sprPitfallSign/sprPitfallSign.yy",},"x":608.0,"y":416.0,},

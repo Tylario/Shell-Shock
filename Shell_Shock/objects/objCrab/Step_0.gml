@@ -13,13 +13,18 @@ if !dancing && keyboard_check(vk_left) && (!instance_place(x - hsp, y, objGround
         x -= hsp;
     }
 } else {
-    image_index = sprCreb;
+	if(!keyboard_check(vk_right))
+	{
+		image_index = sprCrebIdle;
+	}
 }
 
 // Movement right
 if !dancing && keyboard_check(vk_right) && (!instance_place(x + hsp, y, objGround) && !instance_place(x + hsp, y, objUmbrellaDynamic)) {
     moving = !moving; // Simplifies the toggle logic for moving
-    sprite_index = sprCrebWalk;
+	
+	sprite_index = sprCrebWalkNeo;
+	
     if(image_xscale < 0){
         image_xscale = -image_xscale;
     }
@@ -30,7 +35,10 @@ if !dancing && keyboard_check(vk_right) && (!instance_place(x + hsp, y, objGroun
         x += hsp;
     }
 } else {
-    image_index = sprCreb;
+	if(!keyboard_check(vk_left))
+	{
+		image_index = sprCrebIdle;
+	}
 }
 
 // Dancing
@@ -57,7 +65,7 @@ if instance_place(x, y + 1, objGround) {
 }
 
 // Sprite animation while moving
-if (moving) {
+/*if (moving) {
     image_index = floor(frame);
     frame = frame + 0.2;
     if frame > 4.8 {
@@ -65,7 +73,7 @@ if (moving) {
     }
 } else {
     image_index = 1;
-}
+}*/
 
 if (dancing) {
     image_index = floor(frame);
@@ -74,5 +82,5 @@ if (dancing) {
         frame = 1;
     }
 } else {
-    sprite_index = sprCrebWalk;
+    sprite_index = sprCrebWalkNeo;
 }

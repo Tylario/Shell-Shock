@@ -10,8 +10,8 @@
   "name":"objCrabMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Creb",
+    "path":"folders/Objects/Creb.yy",
   },
   "parentObjectId":null,
   "persistent":false,

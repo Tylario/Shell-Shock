@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Menus",
-    "path":"folders/Objects/EnemyObjects/Menus.yy",
+    "path":"folders/Objects/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
