@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_29A3D59A_1_1","path":"rooms/Level1Extended/Level1Extended.yy",},
     {"name":"inst_1366BA56_1_1","path":"rooms/Level1Extended/Level1Extended.yy",},
     {"name":"inst_1CBD5641_1","path":"rooms/Level1Extended/Level1Extended.yy",},
     {"name":"inst_24235724_1","path":"rooms/Level1Extended/Level1Extended.yy",},
@@ -90,7 +89,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_29A3D59A_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29A3D59A_1_1","objectId":{"name":"objDeathCounter","path":"objects/objDeathCounter/objDeathCounter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_1366BA56_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1366BA56_1_1","objectId":{"name":"objGround","path":"objects/objGround/objGround.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.000002,"scaleY":1.0,"x":296.0,"y":504.0,},
         {"$GMRInstance":"","%Name":"inst_1D78C17E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D78C17E_1","objectId":{"name":"objFootSign","path":"objects/objFootSign/objFootSign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.73333335,"scaleY":0.73333335,"x":848.0,"y":416.0,},
         {"$GMRInstance":"","%Name":"inst_1CBD5641_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CBD5641_1","objectId":{"name":"objGround","path":"objects/objGround/objGround.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.000002,"scaleY":1.0,"x":600.0,"y":504.0,},

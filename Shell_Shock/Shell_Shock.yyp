@@ -87,7 +87,6 @@
     {"id":{"name":"roomTest2","path":"rooms/roomTest2/roomTest2.yy",},},
     {"id":{"name":"roomTestLevel","path":"rooms/roomTestLevel/roomTestLevel.yy",},},
     {"id":{"name":"roomVictory","path":"rooms/roomVictory/roomVictory.yy",},},
-    {"id":{"name":"scrKillCrab","path":"scripts/scrKillCrab/scrKillCrab.yy",},},
     {"id":{"name":"snd_beach_background_noise","path":"sounds/snd_beach_background_noise/snd_beach_background_noise.yy",},},
     {"id":{"name":"snd_crab_crunch_1","path":"sounds/snd_crab_crunch_1/snd_crab_crunch_1.yy",},},
     {"id":{"name":"snd_crab_crunch_2","path":"sounds/snd_crab_crunch_2/snd_crab_crunch_2.yy",},},
