@@ -1,8 +1,8 @@
 punDecider = irandom_range(0,4)
 switch(punDecider)
 {
-	case 0: 
-		objDebugCheats.DeathPun = "Wooahoahoah oah oooooh oh oh oh ohhhh oh oh oh\n Story of Undertale";
+	case 0:
+		objDebugCheats.DeathPun = "That was one shell of a fall!";
 		instance_destroy(other);
 		break;
 	case 1:

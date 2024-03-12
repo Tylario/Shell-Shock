@@ -33,7 +33,3 @@ if buttonSelected == 3 {
 } else {
 	quitButton = sprButton;
 }
-
-//death message
-draw_set_color(c_white);
-draw_text(room_width/2, 250, victoryMessage);
