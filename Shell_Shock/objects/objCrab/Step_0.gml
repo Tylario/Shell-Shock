@@ -50,7 +50,8 @@ if !dancing && (keyboard_check(vk_right) || keyboard_check(ord("D"))) && (!insta
 
 // Dancing
 if (keyboard_check(vk_down) || keyboard_check(ord("S"))) && instance_place(x, y + 1, objGround){
-    sprite_index = sprCrebDance;
+    sprite_index = sprCrebDanceNeo;
+	shellUsed = shellDance;
     dancing = true;
 } else {
     dancing = false;
