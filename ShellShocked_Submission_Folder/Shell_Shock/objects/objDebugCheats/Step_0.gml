@@ -1,10 +1,11 @@
-/*//skip to sandcastle level
+//test fullscreen
+window_set_fullscreen(fullScreen);
+/*//skip to End
 if keyboard_check(vk_backspace) {
 	room_goto(roomVictory);
 }
 
-//test fullscreen
-window_set_fullscreen(fullScreen);
+
 
 //restart room
 if keyboard_check(ord("R")) {
