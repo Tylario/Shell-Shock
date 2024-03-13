@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"pathSeagull2",
+  "closed":false,
+  "kind":1,
+  "name":"pathSeagull2",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":2512.0,"y":352.0,},
+    {"speed":100.0,"x":2304.0,"y":448.0,},
+    {"speed":100.0,"x":2240.0,"y":464.0,},
+    {"speed":100.0,"x":2120.0,"y":496.0,},
+    {"speed":100.0,"x":2040.0,"y":464.0,},
+    {"speed":100.0,"x":2000.0,"y":392.0,},
+    {"speed":100.0,"x":1952.0,"y":336.0,},
+    {"speed":100.0,"x":1896.0,"y":208.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

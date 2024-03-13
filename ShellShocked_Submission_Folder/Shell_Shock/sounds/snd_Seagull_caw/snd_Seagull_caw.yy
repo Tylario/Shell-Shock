@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_Seagull_caw",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":34.104,
+  "name":"snd_Seagull_caw",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_Seagull_caw.mp3",
+  "type":0,
+  "volume":1.0,
+}

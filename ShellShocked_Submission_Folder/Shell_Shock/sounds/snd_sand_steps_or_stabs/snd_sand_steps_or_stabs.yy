@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_sand_steps_or_stabs",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":10.944,
+  "name":"snd_sand_steps_or_stabs",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_sand_steps_or_stabs.mp3",
+  "type":0,
+  "volume":1.0,
+}

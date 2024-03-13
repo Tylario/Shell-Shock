@@ -1,0 +1,2 @@
+//set speed
+hspeed = sandSpeed;
