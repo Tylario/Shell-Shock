@@ -1,11 +1,12 @@
 
 
 // Movement left
-if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instance_place(x - hsp, y, objGround) && !instance_place(x - hsp, y, objUmbrellaDynamic)) {
+if !dancing && (keyboard_check(vk_left) || keyboard_check(ord("A"))) && (!instance_place(x - (hsp+1), y, objGround) && !instance_place(x - hsp, y, objUmbrellaDynamic)) {
     moving = !moving;
     
 	sprite_index = sprCrebWalkNeo;
 	shellUsed = shellWalk;
+	
 	
 	if(image_xscale > 0){
         image_xscale = -image_xscale;
